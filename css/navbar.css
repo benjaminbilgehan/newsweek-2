@@ -1,11 +1,11 @@
 /*-- Navbar --*/
 
-.topnav .container-fluid {
+#main-nav .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.topnav .pull-left img {
+#main-nav .pull-left img {
   height: 100px;
 }
 
@@ -17,7 +17,7 @@
   color: #9d9d9d;
 }
 
-.nav li a:not(#circular-image):not(.bullet-a){
+#main-nav li a:not(#circular-image):not(.bullet-a){
   line-height: 70px; /*vertically center menu items*/
   position: relative;
   display: block;
@@ -28,7 +28,7 @@
 
 /* Subscribe to Newsweek */
 
-.nav li #circular-image {
+#main-nav li #circular-image {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -36,7 +36,7 @@
 .banner-subscribe-to {
   width: 175px;
 }
-.wrapper {
+#main-nav .wrapper {
   margin: 0 auto;
 }
 
@@ -45,7 +45,7 @@
   display: block;
 }
 
-.topnav .img-circle {
+#main-nav .img-circle {
   border-radius: 50%;
   height: 65px;
   width: 65px;
@@ -66,13 +66,13 @@
   color:yellow;
 }
 
-.navbar .divider-vertical {
+#main-nav .divider-vertical {
   height: 100px;
   border-right: 1px solid #ffffff;
   border-left: 1px solid #f2f2f2;
 }
 
-.navbar-inverse .divider-vertical {
+#main-nav.navbar-inverse .divider-vertical {
   border-right-color: #6f6f6f;
   border-left-color: #111111;
 }
@@ -98,7 +98,7 @@
   padding-right: 0px;
 }
 
-.navbar-nav>li, .navbar-nav {
+.navbar-nav > li, .navbar-nav {
   float: left !important;
 }
 
@@ -107,21 +107,21 @@
 }
 
 @media (min-width: 768px) {
-  .topnav .navbar-right {
+  #main-nav .navbar-right {
     margin-right: 0;
   }
 }
 
 @media (max-width: 767px){
-  .topnav .container-fluid {
+  #main-nav .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .navbar-nav > li > a {
+  #main-nav .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .navbar-nav {
+  #main-nav .navbar-nav {
     margin: 0 0 0 15px;
   }
 }
